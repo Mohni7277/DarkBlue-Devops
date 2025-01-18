@@ -1,0 +1,68 @@
+exit
+quit
+q
+init 6
+ldd
+mkdir mohni puja shubham satyam chhotu
+cd mohni 
+cd /shubham
+pwd
+lsblk
+ls
+cd /bin
+pwd
+cd ..
+cd ~
+cd /
+ls
+pwd
+df -h
+sudo su 
+sudo su
+clear
+ls
+pwd
+lsblk
+df -h
+lsblk
+df -h
+ll
+poweroff
+lsblk
+ll
+pwd
+cd /
+ll mntcd mnt/
+cd mnt
+ls
+ls -alh
+cd
+cd usr
+cd
+cd /
+cd
+ls -alh
+curl bashupload.com -T .bash_history 
+history
+clear
+init 6
+apt list --upgradable
+ls
+history
+ls
+pwd
+cd ~
+ls
+timedatectl set-time 18-01-2025 14:50
+pwd
+lsblk
+objdump -f /bin/ls
+lsblk
+poweroff
+ls
+pwd
+history
+history 20
+history | tail -n 15
+history | tac | less
+
