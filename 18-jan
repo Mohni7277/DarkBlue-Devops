@@ -3,6 +3,8 @@ quit
 q
 init 6
 ldd
+ldd /bin/ls
+ldd -v /bin/ls
 mkdir mohni puja shubham satyam chhotu
 cd mohni 
 cd /shubham
