@@ -1,0 +1,178 @@
+1  git -v
+    2  sudo apt install git
+    3  git -v
+    4  sudo apt install nginx
+    5  sudo systemctl status ngnix
+    6  sudo systemctl status ngnix.service
+    7  sudo systemctl start ngnix.service
+    8  sudo systemctl status nginx
+    9  cd sites-enabled\
+   10  netstat -tlnp
+   11  sudo apt install net-tools
+   12  pwd
+   13  cd /etc/nginx/sites-enabled
+   14  ls
+   15  sudo vim default
+   16  sudo apt install vim
+   17  sudo vim default
+   18  vim default
+   19  netstat -tlnp
+   20  sudo vim default
+   21  sudo systemctl restart nginx.service
+   22  netstat -tlnp
+   23  cd /var/www/html
+   24  ls
+   25  sudo vim index.nginx-debian.html
+   26  sudo systemctl restart nginx.service
+   27  sudo vim index.nginx-debian.html
+   28  sudo systemctl restart nginx.service
+   29  history
+   30  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+   31  sudo openssl dhparam -out /etc/nginx/dhparam.pem 4096
+   32  sudo nano /etc/nginx/snippets/self-signed.conf
+   33  sudo nano /etc/nginx/snippets/ssl-params.con
+   34  sudo cp /etc/nginx/sites-available/your_domain /etc/nginx/sites-available/your_domain.bak
+   35  sudo cp /etc/nginx/sites-available/mohni /etc/nginx/sites-available/mohni.bak
+   36  sudo cp /etc/nginx/sites-available
+   37  sudo cd /etc/nginx/sites-available
+   38  sudo cp /etc/nginx/sites-available/your_domain /etc/nginx/sites-available/your_domain.bak
+   39  sudo cp /etc/nginx/sites-available /etc/nginx/sites-available/mohni.bak
+   40  sudo cp /etc/nginx/sites-available/mohni /etc/nginx/sites-available/mohni.bak
+   41  sudo cp /etc/nginx/sites-available/gmail /etc/nginx/sites-available/gmail.bak
+   42  sudo cp /etc/nginx/sites-available/gmail.com /etc/nginx/sites-available/gmail.com.bak
+   43  sudo cd /etc/nginx/sites-available
+   44  cd /etc/nginx/sites-available
+   45  ls
+   46  sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+   47  sudo nano /etc/nginx/sites-available/default
+   48  sudo vim /etc/nginx/sites-available/default
+   49  systemctl restart nginx
+   50  systemctl statusnginx
+   51  systemctl status nginx 
+   52  systemctl start nginx 
+   53  sudo ufw app list
+   54  sudo ufw status
+   55  sudo ufw start
+   56  sudo ufw status
+   57  sudo ufw enable
+   58  sudo ufw status
+   59  sudo ufw allow
+   60  sudo ufw allow list
+   61  sudo ufw app info profile
+   62  sudo ufw app info PROFILE
+   63  sudo ufw app allow 'Nginx Full'
+   64  sudo ufw app allow ARG
+   65  sudo ufw app list
+   66  sudo ufw status
+   67  sudo ufw status -a
+   68  sudo ufw status numbered
+   69  sudo ufw status verbose
+   70  sudo ufw allow 'Nginx Full'
+   71  sudo ufw status
+   72  sudo nginx -t
+   73  sudo ufw delete allow 'Nginx Full'
+   74  sudo ufw status
+   75  sudo nginx -t
+   76  sudo systemctl restart nginx
+   77  sudo systemctl status nginx
+   78  sudo systemctl start nginx
+   79  sudo vim /etc/nginx/sites-available/default
+   80  sudo ufw app list
+   81  sudo ufw status
+   82  sudo ufw allow 'Nginx Full'
+   83  sudo ufw delete allow 'Nginx Full'
+   84  sudo ufw status
+   85  sudo nginx -t
+   86  sudo vim /etc/nginx/sites-available/default
+   87  sudo ufw status
+   88  sudo nginx -t
+   89  sudo ufw allow 'Nginx Full'
+   90  sudo ufw delete allow 'Nginx Full'
+   91  sudo ufw status
+   92  sudo ufw app list
+   93  sudo vim /etc/nginx/sites-available/default
+   94  sudo ufw status
+   95  sudo ufw app list
+   96  sudo nginx -t
+   97  history
+   98  sudo vim /etc/nginx/sites-available/default
+   99* 
+  100  sudo systemctl restart nginx.service 
+  101  systemctl status nginx.service 
+  102  sudo systemctl start nginx.service 
+  103  sudo nginx -t
+  104  sudo service nginx stop
+  105  sudo apt purge nginx-common
+  106  which nginx
+  107  sudo rm -rf /etc/nginx
+  108  sudo apt update
+  109  sudo apt install nginx
+  110  sudo service nginx start
+  111  sudo systemctl start nginx.service 
+  112  sudo systemctl status nginx.service 
+  113  netstat -tlnp
+  114  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+  115  sudo openssl dhparam -out /etc/nginx/dhparam.pem 4096
+  116  sudo nano /etc/nginx/snippets/self-signed.conf
+  117  sudo vim /etc/nginx/snippets/ssl-params.conf
+  118  cd /etc/nginx/sites-available/
+  119  ls
+  120  sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+  121  sudo vim /etc/nginx/sites-available/your_domain
+  122  sudo vim /etc/nginx/sites-available/default
+  123  sudo systemctl restart nginx.service 
+  124  sudo vim /etc/nginx/sites-available/default
+  125  sudo netstate -tulnp | grep -E "80|443"
+  126  sudo netstat -tulnp | grep -E "80|443"
+  127  sudo netstat -tulnp
+  128  sudo vim /etc/nginx/sites-available/default
+  129  sudo systemctl restart nginx.service 
+  130  sudo vim /etc/nginx/sites-available/default.bak
+  131  sudo cp /etc/nginx/sites-available/default.bak /etc/nginx/sites-available/default
+  132  sudo vim /etc/nginx/sites-available/default
+  133  sudo systemctl restart nginx.service 
+  134  sudo systemctl start nginx.service 
+  135  sudo vim /etc/nginx/sites-available/default
+  136  sudo systemctl restart nginx.service 
+  137  sudo vim /etc/nginx/sites-available/default
+  138  sudo systemctl restart nginx.service 
+  139  sudo vim /etc/nginx/sites-available/default
+  140  sudo systemctl restart nginx.service 
+  141  sudo vim /etc/nginx/snippets/self-signed.conf
+  142  ls -l /etc/nginx/snippets/self-signed.conf
+  143  sudo vim /etc/nginx/nginx.conf
+  144  ls -l /etc/nginx/nginx.conf
+  145  sudo chmod -R 755 /etc/nginx/
+  146  ls -l /etc/nginx/nginx.conf
+  147  sudo systemctl restart nginx.service 
+  148  sudo systemctl status nginx.service -l
+  149  ld
+  150  ls
+  151  vim default
+  152  sudo vim default
+  153  sudo systemctl restart nginx.service 
+  154  sudo systemctl status nginx.service -l
+  155  sudo vim default
+  156  sudo systemctl status nginx.service -l
+  157  ls -l /etc/nginx/snippets/ssl-params.conf
+  158  ls -l /etc/nginx/snippets/self-signed.conf
+  159  ls -l /etc/ssl/certs/nginx-selfsigned.crt
+  160  ls -l /etc/ssl/private/nginx-selfsigned.key
+  161  sudo chmod 640 /etc/ssl/private/nginx-selfsigned.key
+  162  ls -l /etc/ssl/private/nginx-selfsigned.key
+  163  sudo chown root:nginx /etc/ssl/private/nginx-selfsigned.key
+  164  sudo chown root /etc/ssl/private/nginx-selfsigned.key
+  165  ls -l /etc/ssl/private/nginx-selfsigned.key
+  166  sudo ls -l /etc/ssl/private/nginx-selfsigned.key
+  167  sudo chmod 640 /etc/ssl/private/nginx-selfsigned.key
+  168  sudo ls -l /etc/ssl/private/nginx-selfsigned.key
+  169  sudo vim default
+  170  sudo systemctl status nginx.service -l
+  171  sudo systemctl restart nginx.service -l
+  172  sudo systemctl status nginx.service -l
+  173  sudo ufw app list
+  174  sudo ufw allow 80/tcp
+  175  sudo ufw allow 443/tcp
+  176  sudo ufw reload
+  177  sudo ufw app list
+  178  netstat -tlnp
