@@ -1,0 +1,28 @@
+LVM 
+sudo fdisk /dev/sdb
+sudo fdisk -l
+sudo fdisk /dev/sdb1
+sudo fdisk -l
+sudo fdisk /dev/sdb1
+pvcreate /dev/sdb1
+sudo pvcreate /dev/sdb1
+pvdisplay
+sudo pvdisplay
+sudo vgcreate mohni /dev/sdb1
+sudo vgcreate mohni
+sudo vvgdispaly mohni
+sudo vgdispaly mohni
+sudo vgdisplay mohni
+sudo lvcreate -L 1500M -n mohnilv mohni
+sudo lvdisplay mohni
+cd /dev
+ls
+cd /dev/mohni
+sudo mkfs.ext4 /dev/mohni/mohnilv 
+mkdir ~/lv
+cd /lv
+cd /home
+ls
+cd ~
+sudo mount /dev/mohni/mohnilv ~/lv 
+df -Th
